@@ -1,0 +1,12 @@
+{
+  "name": "esm-yarn2-global-repro",
+  "scripts": {
+    "start": "node -r esm server.js",
+    "yarn:install": "node ./.yarn/releases/yarn-berry",
+    "yarn:start": "node ./.yarn/releases/yarn-berry start"
+  },
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.17.1"
+  }
+}
